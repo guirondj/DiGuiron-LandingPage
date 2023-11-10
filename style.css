@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( to right, rgba(47, 35, 220, 0.697), rgba(195, 23, 57, 0.585));
+    margin: auto;
+    min-width: 375px;
+    max-width: 1920px;
+}
+
+img{
+    margin: auto;
+    width: 98%;
+    max-width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.644);
+    border-radius: 15px;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+}
+
+h2, h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.sobre-me, .beat-new, .mix, .show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+a{
+   font-size: 1rem;
+   margin-left: 78%;
+   margin-top: 50px;
+   box-shadow:inset 2px 2px 25px rgba(0, 0, 0, 0.665);
+   background-color: #1900ff;
+   color: white;
+   padding: 10px;
+   border-radius: 25px;
+   text-decoration: none;
+}
+
+p{
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 30px auto;
+    width: 98%;
+    max-width: 500px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #00000081;
+    border-radius: 1em;
+
+    box-shadow: 5px 5px 5px black;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botao button{
+    background: rgba(0, 0, 0, 0.158);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.626);
+    color: white;
+}
